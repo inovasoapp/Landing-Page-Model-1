@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "Landing Page | Model 1",
     images: [
       {
-        url: "https://www.advocaciasilviosouza.com.br/og-image.webp",
+        url: "https://page-models.inovaso.app/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Landing Page | Model 1",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     images: [
       {
-        url: "https://www.advocaciasilviosouza.com.br/og-image.webp",
+        url: "https://page-models.inovaso.app/og-image.webp",
         width: 1200,
         height: 600,
         alt: "Landing Page | Model 1",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.advocaciasilviosouza.com.br/",
+    canonical: "https://page-models.inovaso.app/",
   },
 };
 
@@ -67,10 +67,10 @@ export default function Home() {
     "@type": "WebPage",
     name: "Landing Page | Model 1",
     description: "Tenha uma Landing Page de alta conversão para o seu negócio.",
-    url: "https://www.advocaciasilviosouza.com.br/",
+    url: "https://page-models.inovaso.app/",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://www.advocaciasilviosouza.com.br/?s={search_term_string}",
+      target: "https://page-models.inovaso.app/?s={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };
