@@ -5,7 +5,7 @@ import VideoPlayerDialog from "../../elements/video-player-dialog";
 import MorphinButtonScreen from "../../elements/morphin-button-screen";
 import FormCarrousel from "../../elements/forms/form-carrousel";
 
-export default function Hero() {
+export function Hero() {
   return (
     <section className="relative w-full min-h-[calc(100vh-6rem)] lg:min-h-[900px] h-full lg:h-[900px] overflow-hidden">
       <div className="absolute inset-0 w-full h-full bg-linear-to-br from-amber-400 to-amber-600 z-10" />
@@ -142,7 +142,7 @@ export default function Hero() {
                 />
               </div>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col min-w-2xs">
               <span className="text-zinc-300  lg:text-zinc-800 font-bold text-xl">
                 120+
               </span>
